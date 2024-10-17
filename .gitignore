@@ -1,0 +1,54 @@
+# Archivos y carpetas generadas por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Archivos de usuario y configuración personal
+*.sln
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+
+# Archivos de metadatos
+*.pidb.meta
+*.pdb
+*.mdb
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de compilación
+*.apk
+*.unitypackage
+*.app
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Unity
+*.unity
+*.prefab
+*.mat
+*.fbx
+*.png
+*.jpg
+*.tga
+*.shader
+
+# Directorios específicos de URP
+[Uu]niversal[Rr]ender[Pp]ipeline/
+[Uu]nity[Rr]ender[Pp]ipeline/
+
+# Archivos de Asset Store (si es necesario)
+Assets/YourAssetStorePackage/Editor/
+Assets/YourAssetStorePackage/Documentation/
+
+# Archivos de editor
+*.user
+*.unityproj
