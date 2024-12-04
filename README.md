@@ -20,6 +20,16 @@ StarterAssets:
 InfinityPBR - Sound effects:
 - source: https://drive.google.com/file/d/1AN56nzmJfrFeSUhoBmYXxVQyd4QSJCEh/view?usp=sharing
 - required: Optional
+PolygonApocalypse:
+- source: https://drive.google.com/file/d/1hUwMOLM_Lhgm9JJqNYoit86GNE62E52X/view?usp=drive_link
+- required: Obligatory
+UnityTechologies - Particle effects: 
+- source: Unity Assets Store
+- TerrainSample Assets: 
+- source: Package Manager
+- requires: Optional
+PolygonFantasyCharacters
+- source: 
 
 ## Rules
 
