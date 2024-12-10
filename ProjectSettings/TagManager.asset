@@ -8,6 +8,8 @@ TagManager:
   - PlayerBody
   - Zombie
   - Canon
+  - Ammo_Count
+  - Ammo_Mag
   layers:
   - Default
   - TransparentFX

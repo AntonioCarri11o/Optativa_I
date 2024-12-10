@@ -120,6 +120,8 @@ namespace StarterAssets
         private float fireRate = 0.2f;
         private float _lastShootTime;
 
+        private Player_stats _player_stats;
+
         private bool IsCurrentDeviceMouse
         {
             get
@@ -145,6 +147,7 @@ namespace StarterAssets
 
         private void Start()
         {
+            _player_stats = GetComponent<Player_stats>();
             _gun = GameObject.FindGameObjectWithTag("Canon");
             _gunController = _gun.GetComponent<Gun>();
             _player_body = GameObject.FindGameObjectWithTag("PlayerBody");
@@ -295,9 +298,12 @@ namespace StarterAssets
 
         private void Shoot()
         {
+            if (!_isAiming) return;
             if(_input.shoot)
-            {
-                _gunController.onShoot(cinemachineCameraTarget);
+            {                
+                Transform tr = _mainCamera.transform;
+                Camera c = _mainCamera.GetComponent<Camera>();
+                _gunController.onShoot(cinemachineCameraTarget.transform);
             }
         }
         private void Move()
